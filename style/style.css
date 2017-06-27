@@ -1,0 +1,61 @@
+*{
+    border: 0px;
+    margin: 0px;
+}
+
+.item{
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 4px;
+    display: inline-block;
+    text-align: center;
+    
+}
+.item button{
+    display: block;
+    margin: 50px;
+    margin-left: 70px;
+}
+.item-in-cart{
+    width: 150px;
+    height: 250px;
+    border: dashed red;
+    border-radius: 5px;
+     margin: 5px;
+    padding: 4px;
+    display: inline-block;
+    text-align: center;
+}
+#header{
+    height: 250px;
+    background: #03A9F4;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-bottom: 5px;
+}
+#content{
+    height:  1100px;
+    border: 1px dashed #03A9F4;
+    padding: 55px;
+}
+#footer{
+    height: 125px;
+    background: #03A9F4;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-top: 5px;
+}
+ul {
+  list-style: none; /*убираем маркеры списка*/
+  margin: 0; /*убираем отступы*/
+  padding-left: 0; /*убираем отступы*/ 
+}
+a {
+  text-decoration: none; /*убираем подчеркивание текста ссылок*/
+}
+li {
+ float:left; /*Размещаем список горизонтально для реализации меню*/
+  margin-right:5px; /*Добавляем отступ у пунктов меню*/
+}

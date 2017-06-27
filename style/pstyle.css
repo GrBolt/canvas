@@ -1,0 +1,17 @@
+#paint{
+    width: 500px;
+    height: 350px;
+    border: 5px solid black;
+    margin: 20px;
+}
+
+#Life{
+    width: 300px;
+    height: 300px;
+    border: 5px dashed blue;
+    margin: 20px;
+}
+#control{
+    margin: 20px;
+
+}
